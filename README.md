@@ -23,11 +23,11 @@ Berikut adalah ikhtisar tentang sintaks penurunan harga yang dapat Anda gunakan 
 ###### This is an <h6> tag
 
 Tekanan
- *  * Teks ini akan miring *
+ *  *Teks ini akan miring*
   
 * _Ini juga akan menjadi italic_
 
-*  ** Teks ini akan dicetak tebal **
+*  **Teks ini akan dicetak tebal**
 * _Ini juga akan berani_
 
 _You ** bisa ** menggabungkan them_
@@ -67,3 +67,71 @@ Kode inline
 Saya pikir Anda harus menggunakan
 `<addr>` elemen di sini sebagai gantinya.
 
+GitHub Flavored Markdown
+GitHub.com menggunakan versi sintaks Markdown sendiri yang menyediakan seperangkat fitur tambahan yang berguna, yang banyak mempermudah kerja dengan konten di GitHub.com.
+
+Perhatikan bahwa beberapa fitur GitHub Flavoured Markdown hanya tersedia dalam deskripsi dan komentar dari Isu dan Permintaan Tarik. Ini termasuk @mentions serta referensi tentang SHA-1 hash, Issues, and Pull Requests. Daftar Tugas juga tersedia dalam komentar Gist dan dalam file Gist Markdown.
+
+Penyorotan sintaks
+Berikut adalah contoh bagaimana Anda bisa menggunakan penyorotan sintaks dengan GitHub Flavored Markdown:
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+Anda juga bisa hanya indent kode Anda dengan empat spasi:
+ function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
+    
+Berikut adalah contoh kode Python tanpa penyorotan sintaksis:
+def foo():
+    if not bar:
+        return True
+        
+Daftar tugas
+- [x] @mentions, #refs, [links] (), ** format **, dan tag <del> </ del> didukung
+- [x] daftar sintaks yang diperlukan (daftar yang tidak teratur atau yang dipesan)
+- [x] ini adalah item yang lengkap
+- [] ini adalah item yang tidak lengkap
+
+Jika Anda menyertakan daftar tugas di komentar pertama suatu Issue, Anda akan mendapatkan indikator kemajuan praktis dalam daftar masalah Anda. Ini juga bekerja di Pull Requests!
+
+## Tabel
+Anda dapat membuat tabel dengan menyusun daftar kata dan membaginya dengan tanda hubung - (untuk baris pertama), dan kemudian memisahkan setiap kolom dengan pipa |.
+
+Header Pertama | Header Kedua
+------------ | -------------
+Konten dari sel 1 | Konten dari sel 2
+Konten di kolom pertama | Isi di kolom kedua
+
+Referensi SHA
+
+Setiap referensi ke hash SHA-1 komit akan diubah secara otomatis menjadi tautan ke komit pada GitHub.
+16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+
+Issue references within a repository
+
+Any number that refers to an Issue or Pull Request will be automatically converted into a link.
+#1
+mojombo#1
+mojombo/github-flavored-markdown#1
+
+Nama pengguna @mentions
+Mengetik simbol @, diikuti oleh nama pengguna, akan memberi tahu orang tersebut untuk datang dan melihat komentarnya. Ini disebut "@mention", karena Anda menyebutkan individu. Anda juga bisa @mention tim dalam sebuah organisasi.
+
+## Tautan otomatis untuk URL
+Setiap URL (seperti http://www.github.com/) akan otomatis dikonversi menjadi tautan yang dapat diklik.
+
+## Dicoret
+Setiap kata dibungkus dengan dua tildes (seperti ~~ this ~~) akan muncul dicoret.
+
+## Emoji
+GitHub mendukung emoji! : berkilau:: unta:: boom:
+Untuk melihat daftar setiap gambar yang kami dukung, lihat lembar Cheat Emoji.
