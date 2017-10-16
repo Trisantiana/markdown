@@ -9,11 +9,10 @@ Anda bisa menggunakan Markdown sebagian besar tempat di sekitar GitHub:
 * File dengan ekstensi .md atau .markdown
 Untuk informasi lebih lanjut, lihat "Menulis di GitHub" di Help GitHub.
 
-Examples
-## perintah :
+## Examples
+
 It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
-## hasilnya :
-It's very easy to make some words bold and other words italic with Markdown. You can even link to Google!
+
 
 # Panduan sintaks
 Berikut adalah ikhtisar tentang sintaks penurunan harga yang dapat Anda gunakan di mana saja di GitHub.com atau di file teks Anda sendiri.
@@ -24,11 +23,12 @@ Berikut adalah ikhtisar tentang sintaks penurunan harga yang dapat Anda gunakan 
 ###### This is an <h6> tag
 
 Tekanan
-* Teks ini akan miring *
+  * Teks ini akan miring *
+  
 _ Ini juga akan menjadi italic_
 
-** Teks ini akan dicetak tebal **
-__Ini juga akan berani
+ ** Teks ini akan dicetak tebal **
+__Ini juga akan berani_
 
 _You ** bisa ** menggabungkan them_
 
