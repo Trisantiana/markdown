@@ -1,0 +1,31 @@
+Apa itu markdown?
+markdown adalah cara untuk gaya teks di web. Anda mengontrol tampilan dokumen; Memformat kata-kata sebagai huruf tebal atau miring, menambahkan gambar, dan membuat daftar hanyalah beberapa hal yang dapat kita lakukan dengan penurunan harga. Sebagian besar, penurunan harga hanya teks biasa dengan beberapa karakter non-abjad yang dilempar ke dalam, seperti # atau *.
+
+Anda bisa menggunakan Markdown sebagian besar tempat di sekitar GitHub:
+* Gist
+* Komentar di Issues dan Pull Request
+* File dengan ekstensi .md atau .markdown
+Untuk informasi lebih lanjut, lihat "Menulis di GitHub" di Help GitHub.
+
+Examples
+## perintah :
+It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
+## hasilnya :
+It's very easy to make some words bold and other words italic with Markdown. You can even link to Google!
+
+# Panduan sintaks
+Berikut adalah ikhtisar tentang sintaks penurunan harga yang dapat Anda gunakan di mana saja di GitHub.com atau di file teks Anda sendiri.
+
+# Judul
+# This is an <h1> tag
+## This is an <h2> tag
+###### This is an <h6> tag
+
+Tekanan
+* Teks ini akan miring *
+_ Ini juga akan menjadi italic_
+
+** Teks ini akan dicetak tebal **
+__Ini juga akan berani
+
+_You ** bisa ** menggabungkan them_
