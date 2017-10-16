@@ -25,7 +25,7 @@ Berikut adalah ikhtisar tentang sintaks penurunan harga yang dapat Anda gunakan 
 Tekanan
  *  * Teks ini akan miring *
   
-* _ Ini juga akan menjadi italic_
+* _Ini juga akan menjadi italic_
 
 *  ** Teks ini akan dicetak tebal **
 * _Ini juga akan berani_
